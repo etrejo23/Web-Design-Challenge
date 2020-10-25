@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>Web-Design-Challenge</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -40,7 +40,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-success">
   
       
-      <a class="navbar-brand" href="index.html">Latitude</a>
+      <a class="navbar-brand" href="Web-Design-Challenge/src/templates/index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,26 +48,47 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-          <a class="nav-link" href="comparisons.html">Comparison</a>
+          <a class="nav-link" href="Web-Design-Challenge/src/templates/comparisons.html">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
+          <a class="nav-link" href="Web-Design-Challenge/src/templates/data.html">Data</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="temperature.html">vs. Max Temperature</a>
-            <a class="dropdown-item" href="humidity.html">vs. Humidity</a>
-            <a class="dropdown-item" href="cloudiness.html">vs. Cloudiness</a>
-            <a class="dropdown-item" href="windspeed.html">vs. Wind Speed</a>
+            <a class="dropdown-item" href="Web-Design-Challenge/src/templates/temperature.html">vs. Max Temperature</a>
+            <a class="dropdown-item" href="Web-Design-Challenge/src/templates/humidity.html">vs. Humidity</a>
+            <a class="dropdown-item" href="Web-Design-Challenge/src/templates/cloudiness.html">vs. Cloudiness</a>
+            <a class="dropdown-item" href="Web-Design-Challenge/src/templates/windspeed.html">vs. Wind Speed</a>
           </div>
         </li>
       </ul>
     </div>
   </nav>
-  
+    
+  <div class="container" style="margin-top:30px">
+    <!-- <div class="col-xl-12"> -->
+        
+        <div class="row">
+          <div class="col-lg-12 w3-center w3-text-pink">
+            <h2>vs. Max Temperature</h2>
+              <hr class="w3-opacity">
+              <a  href="Web-Design-Challenge/src/templates/temperature.html">
 
+              <img src="../static/img/MaxTemperature.png"  alt="Max Temperature" class= "img-fluid">
+                
+              </img>
+              </a>
+              <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+          </div>
+    <!-- </div> -->
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>Latitude Analysis</p>
+    </div>
+    
   </body>
   </html>
